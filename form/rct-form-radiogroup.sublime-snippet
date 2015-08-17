@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<RadioGroup
+  className={${1:string}}
+  data={${3:string}} // 占位提示文字
+  inline={${4:string}}      // 只读，默认为 false
+  onChange={${4:func}}      // 值改变回调事件，参数为 value
+  readOnly={false}     // 为 true 时，只读。默认为 false
+  textTpl="${5:string}"    // 显示文字模板，默认为 "{text}"
+  valueTpl="${6:string}"   // 返回数据模板，默认为 "{id}"
+  value={${7:string}}       // 初始值
+/>
+]]></content>
+	<tabTrigger>rtc-form-radiogroup</tabTrigger>
+</snippet>
+

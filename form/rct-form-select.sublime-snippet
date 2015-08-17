@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<Select
+  className={${1:string}}    // class
+  data={${2:string|array}}     // 数据，array 或者 dataSource
+  sep={${3:null}}     // 返回值分隔字符，默认值为 ","。为 "" 或 null 时，返回值类型为 array
+  filterAble={${4:false}}     // 是否显示筛选，默认为 false
+  readOnly={${5:false}}       // 是否只读。默认为 false
+  groupBy={${6:string}}      // 分组的 key。不填为不分组
+  placeholder={${7:string}}  // 占位提示文字
+  mult={${8:false}}           // 是否多选，默认为 false
+  onChange={${9:func}}   // 值改变时触发事，参数为 value
+  optionTpl={${10:text}}    // 选项模板，默认为 {text}
+  resultTpl={${11:optionTpl}}    // 选中项显示模板，如果不填使用 optionTpl
+  valueTpl={${12:value}}     // 返回值模板，默认为 {value}
+  value={${13:string}}        // 初始值
+/>
+]]></content>
+	<tabTrigger>rtc-form-select</tabTrigger>
+</snippet>
+

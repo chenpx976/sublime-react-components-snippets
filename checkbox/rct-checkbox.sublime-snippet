@@ -5,8 +5,8 @@
   text="${2:string}"       // 显示的文字信息
   value={${3:string}}         // 值，不填写 getValue 得到的值为 bool
   checked={${4:false}}      // 是否选中，默认为 false
-  readOnly={${4:false}}     // 是否只读，默认为 false
-  onChange={${4:func}} // 状态改变回调事件
+  readOnly={${5:false}}     // 是否只读，默认为 false
+  onChange={${6:func}} // 状态改变回调事件
 />
 ]]></content>
 	<tabTrigger>rtc-checkbox</tabTrigger>

@@ -5,6 +5,5 @@
   <span>${1:处理中...}</span>
 </FormSubmit>
 ]]></content>
-	<tabTrigger>rtc-formsub</tabTrigger>
+	<tabTrigger>rtc-form-sub</tabTrigger>
 </snippet>
-

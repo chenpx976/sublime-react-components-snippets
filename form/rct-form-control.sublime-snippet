@@ -11,6 +11,6 @@
   {...${8:string}}              // 控件属性
 />
 ]]></content>
-	<tabTrigger>rtc-formcontrol</tabTrigger>
+	<tabTrigger>rtc-form-control</tabTrigger>
 </snippet>
 
