@@ -1,4 +1,2 @@
-# sublime-react-components-snippets
+### sublime 自定义设置
 
- - components list
-  - [Lobos/react-ui](https://github.com/Lobos/react-ui)
