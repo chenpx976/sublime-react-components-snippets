@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+import ${2:this} from '${1:snippet}';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>im</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
