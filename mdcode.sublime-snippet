@@ -1,9 +1,13 @@
 <snippet>
 	<content><![CDATA[
-var ${2:this} = require('${1:snippet}');
+${1:python} 代码片段
+```${1:python}
+${2:#!/usr/bin/env python3
+# -*- coding: utf-8 -*-}
+```
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>im</tabTrigger>
+	<tabTrigger>mc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+	<scope>source.md</scope>
 </snippet>
